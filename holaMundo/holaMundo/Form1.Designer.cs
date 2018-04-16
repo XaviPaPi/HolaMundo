@@ -35,7 +35,7 @@
             // 
             // btn_Click
             // 
-            this.btn_Click.Location = new System.Drawing.Point(105, 103);
+            this.btn_Click.Location = new System.Drawing.Point(45, 54);
             this.btn_Click.Name = "btn_Click";
             this.btn_Click.Size = new System.Drawing.Size(75, 23);
             this.btn_Click.TabIndex = 0;
@@ -45,7 +45,7 @@
             // 
             // txt_Pass
             // 
-            this.txt_Pass.Location = new System.Drawing.Point(81, 77);
+            this.txt_Pass.Location = new System.Drawing.Point(21, 28);
             this.txt_Pass.Name = "txt_Pass";
             this.txt_Pass.Size = new System.Drawing.Size(119, 20);
             this.txt_Pass.TabIndex = 1;
@@ -53,7 +53,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(102, 58);
+            this.label1.Location = new System.Drawing.Point(42, 9);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(88, 13);
             this.label1.TabIndex = 2;
@@ -63,7 +63,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(284, 261);
+            this.ClientSize = new System.Drawing.Size(160, 91);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.txt_Pass);
             this.Controls.Add(this.btn_Click);
