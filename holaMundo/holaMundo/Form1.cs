@@ -19,21 +19,7 @@ namespace holaMundo
 
         private void btn_Click_Click(object sender, EventArgs e)
         {
-            int cops;
-            try
-            {
-                cops = Convert.ToInt32(txt_Pass.Text);
-            }
-            catch (FormatException)
-            {
-                cops = 1;
-            }
-            for (int i = 0; i < cops; i++)
-            {
                 MessageBox.Show("Hello World");
-            }
         }
-
-
     }
 }
